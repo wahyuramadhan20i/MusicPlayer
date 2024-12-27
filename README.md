@@ -12,7 +12,7 @@
 
 ```sh
 git clone https://github.com/ZeebFly/MusicPlayer
-cd SmartVCPlayer
+cd MusicPlayer
 pip3 install -r requirements.txt
 # install node js
 sudo bash install_node.sh
