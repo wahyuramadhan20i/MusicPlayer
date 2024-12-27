@@ -1,6 +1,4 @@
-# Copyright (C) @subinps
-# Update By (C) @theSmartBisnu
-# Channel : https://t.me/itsSmartDev
+# Channel : https://t.me/ruangzeeb
 
 
 from utils import LOGGER
