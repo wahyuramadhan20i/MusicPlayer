@@ -39,12 +39,12 @@
         "description": "ID of the group to send playlist If CHAT is a Group, if channel then leave blank",
         "required": false
       },
-      "QUALITY": {
+      "QUALITY": " high"
         "description": "Default quality of your video player, Use one of high, medium or low.",
         "value": "high",
         "required": false
       },
-      "DATABASE_URI": {
+      "DATABASE_URI": mongosh "mongodb+srv://cluster0.sgjnj.mongodb.net/" --apiVersion 1 --username cncwahyu579
         "description": "Mongo DB database URI , get from https://cloud.mongodb.com, even if this is optional, many of functions may not work if this is not set.",
         "required": false
       },
