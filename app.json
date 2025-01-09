@@ -15,27 +15,27 @@
       "voip"
     ],
     "env": {
-      "API_ID": 27275628
+      "API_ID": {27275628
         "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
         "required": true
       },
-      "API_HASH": 1f147a7010b1f675e9ed70913224d863
+      "API_HASH": {1f147a7010b1f675e9ed70913224d863
         "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
         "required": true
       },
-      "BOT_TOKEN": 7853619626:AAGVsY91IcoVkJkNNkPJwNnNntNBpM6m3qk
+      "BOT_TOKEN": {7853619626:AAGVsY91IcoVkJkNNkPJwNnNntNBpM6m3qk
         "description": "Bot token of Bot, get from @Botfather",
         "required": true
       },
-      "SESSION_STRING": BQGgMWwAZUqrAkwjddauJAAm3C4jIu8zoxNHjpHX7v7FFh0myA0j3ERNfrEhkKW639G28gEOfwhnWlKPOyQ0KUxgPPbIhYSCIm7UAc4q2yBLHyis__wu4wzHLz8YtFp-G_PLZPLlDE8YTbov7UPjErnQc8zBLhC_-ltKJ5QlRE6ByrxscnPnBQBQ7nBtBxjX0CudyiFEArEi8F4M9XZv4e20aUHj3YUEks-oAbTpF4h0lXVbc_V2F1t3sLkzF9sMzXYoJer-NP8WTmjE_zYtBKtgu5DBkcdo_lBxSbyHjO9yWGOYXyOjwimZ2k_1NOoE9zjggPRaRte3p0Jw8qGyx6L35ARVWAAAAAF5aXYvAA
+      "SESSION_STRING": {BQGgMWwAP8j-UFcGfWJS_Wdlx4q_wxUa0NZJ_yk_uqBdmyt0A78PfrYisjxq-tNmp9wBghfPfzQYlr8YngVEWFV_IPQuxjEfqeLbtoqI0qUvX5dKleDf8Y02K8d0DmoY1leruJehzV31n_9IsWZ377mO3bHACMZf7vJxFKlrFlWVjAleyw330CMZYDq93AHK-vN3mB9bslibi9j-j17mdjlMzAX95cvps2a8NA5ynxJ2xZUQGMK6ZSDtwAv2cxSd_-65Vr17b-RBvYluvhaxWyPL1P0WLw1s1akV8wRA2JzwycRfXNVcik5xcit5CSxTo4-vFzicw4hIsTtGAhmNvWzdW_xapgAAAAF5aXYvAA
         "description": "Session string, read the README to learn how to export it with Pyrogram",
         "required": true
       },
-      "CHAT": https://t.me/botmusikaid
+      "CHAT": {@botmusikaid
         "description": "ID of Channel or Group where the Bot plays Music",
         "required": true
       },
-      "LOG_GROUP": https://t.me/botmusikaid
+      "LOG_GROUP": {@botmusikaid
         "description": "ID of the group to send playlist If CHAT is a Group, if channel then leave blank",
         "required": false
       },
@@ -44,24 +44,24 @@
         "value": "high",
         "required": false
       },
-      "DATABASE_URI": mongosh "mongodb+srv://cluster0.sgjnj.mongodb.net/" --apiVersion 1 --username cncwahyu579
+      "DATABASE_URI": {mongosh "mongodb+srv://cluster0.sgjnj.mongodb.net/" --apiVersion 1 --username cncwahyu579
         "description": "Mongo DB database URI , get from https://cloud.mongodb.com, even if this is optional, many of functions may not work if this is not set.",
         "required": false
       },
-      "ADMINS": 609517172
+      "ADMINS": {-1001861619812
         "description": "ID of Users who can use Admin commands(for multiple users seperated by space)",
         "required": true
       },
-      "ADMIN_ONLY": 609517172
+      "ADMIN_ONLY": {false
         "description": "Change it to True if you want to make /play command available for everyone.",
         "value": "False",
         "required": false
       },
-      "HEROKU_API_KEY": HRKU-96aaa3d7-569f-49d0-8f36-c67540a45292
+      "HEROKU_API_KEY": {HRKU-96aaa3d7-569f-49d0-8f36-c67540a45292
         "description": "Your heroku api key, get it from https://dashboard.heroku.com/account/applications/authorizations/new.",
         "required": false
       },
-      "HEROKU_APP_NAME": Ckb musikk
+      "HEROKU_APP_NAME": {Ckb musikk
         "description": "Heroku App Name.",
         "required": false
       },
