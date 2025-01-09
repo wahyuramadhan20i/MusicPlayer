@@ -48,11 +48,11 @@
         "description": "Mongo DB database URI , get from https://cloud.mongodb.com, even if this is optional, many of functions may not work if this is not set.",
         "required": false
       },
-      "ADMINS": @botmusic12
+      "ADMINS": 609517172
         "description": "ID of Users who can use Admin commands(for multiple users seperated by space)",
         "required": true
       },
-      "ADMIN_ONLY": @botmusic12
+      "ADMIN_ONLY": 609517172
         "description": "Change it to True if you want to make /play command available for everyone.",
         "value": "False",
         "required": false
